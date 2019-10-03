@@ -18,14 +18,14 @@ $ npm install --save bcryptjs
 
 Import this package into your file where you want to use it.
 ```js
-	var bcrypt = require('bcryptjs')
+var bcrypt = require('bcryptjs')
 ```
 
  First, generate the salt
 ```js
-	bcrypt.genSalt(12, function(err, salt) {
-		//salt goes here.
-	})
+bcrypt.genSalt(12, function(err, salt) {
+	//salt goes here.
+})
 ```
  Add the salt to your password
 ```js
