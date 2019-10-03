@@ -41,12 +41,12 @@ bcrypt.genSalt(12, function(err, salt) {
 Final working code is below.
 
 ```js
-	var password = 'MyUserPassword';
-	var number = 12 // Number of iteration to genrate salt.
-	bcrypt.genSalt(number , function(err, salt) {
-	  bcrypt.hash(password, salt, function(err, hash) {
-		  // Store hash in your password DB.
-		  console.log("hash is -   " + hash);
-	  });
-	});
+var password = 'MyUserPassword';
+var number = 12 // Number of iteration to genrate salt.
+bcrypt.genSalt(number , function(err, salt) {
+  bcrypt.hash(password, salt, function(err, hash) {
+	  // Store hash in your password DB.
+	  console.log("hash is -   " + hash);
+  });
+});
 ```
