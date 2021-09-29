@@ -1,4 +1,4 @@
-# Genrationing Password Hash in [nodejs](https://nodejs.org/en/)
+# Generating Password Hash in [nodejs](https://nodejs.org/en/)
 
 
 
